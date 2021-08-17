@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="build/css/app.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+    <title>Marketing With Bootstrap5</title>
+  </head>
+  <body>
+    <!-- ============== START HEADER ==================== -->
+    <header class="container-fluid bg-primary d-flex justify-content-center">
+      <p class="text-light m-0 p-2 fw-bold text-uppercase">
+        Contact Us 1 (305)-725-1000
+      </p>
+    </header>
+    <!-- ============== END HEADER ==================== -->
+
+    <!-- ============== START NAV ==================== -->
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light pt-3 nav">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="index.html">
+          <span class="text-primary fs-4 fw-bold"> Marketing </span>
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class=" collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0 mx-auto">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="index.html"
+                >Home</a
+              >
+            </li>
+
+            <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">
+                  Team
+                </a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Contact</a>
+            </li>
+          </ul>
+          <form class="d-flex">
+            <input
+              class="form-control me-2  "
+              type="email"
+              placeholder="Your email.."
+              aria-label="email"
+            />
+            <button class="btn btn-primary" type="submit">
+              Send
+            </button>
+          </form>
+        </div>
+      </div>
+    </nav>
+    <!-- ============== END NAV ==================== -->
+
+    <!-- ============== START SLIDER ==================== -->
+   
+    <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active" data-bs-interval="3000">
+            <img src="img/slide2.jpg" class="d-block w-100" alt="slide1">
+          </div>
+          <div class="carousel-item" data-bs-interval="3000">
+            <img src="./img/slide3.jpg" class="d-block w-100" alt="slide2">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+
+    <!-- ============== END SLIDER ==================== -->
+
+    <!-- ============== START INTRO ==================== -->
+
+      <section class=" description w-50 mx-auto text-center pt-3">
+          <h1 class="p-3 fs-2 border-top border-3 border-primary">A unique agency for your 
+            <span class="text-primary">Digital Marketing goals</span></h1>
+        <p class="p-3 fs-5"><span class="text-primary">MK-MIAMI</span> is the agency where we help you establish your online presence. SEO, Web Pages, Virtual Stores & social networks. </p>
+      </section>
+
+    <!-- ============== END INTRO ==================== -->
+    
+    
+    <!-- ============== START SERVICES ==================== -->
+    <section class="container-fluid">
+        <div class="row w-75 mx-auto services">
+            <div class="col-lg-6 col-md-6 col-sm-12 d-flex justify-content-start my-5 icono-wrap">
+                <img src="img/desarrollo.png" alt="image1"
+                width="180" height="160">
+            <div>
+                <h3 class="fs-5 mt-4 px-4 pb1">
+                    Development
+                </h3>
+                <p class="px-4">
+                    Development of web, mobile and e-commerce applications
+                </p>
+            </div>
+         </div>
+         <div class="col-lg-6 col-md-6 col-sm-12 d-flex justify-content-start my-5 icono-wrap ">
+                <img src="img/seo.png" alt="image1" width="180" height="160">
+            <div>
+                <h3 class="fs-5 mt-4 px-4 pb1">
+                    Development
+                </h3>
+                <p class="px-4">
+                    Development of web, mobile and e-commerce applications
+                </p>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="row w-75 mx-auto services">
+            <div class="col-lg-6 col-md-6 col-sm-12 d-flex justify-content-start my-5 icono-wrap">
+                <img src="img/comunicaciones.png" alt="image3"
+                width="180" height="160">
+            <div>
+                <h3 class="fs-5 mt-4 px-4 pb1">
+                    Communication
+                </h3>
+                <p class="px-4">
+                    Development of communication plans for your clients
+                </p>
+            </div>
+        </div>
+        
+        <div class="col-lg-6 col-md-6 col-sm-12 d-flex justify-content-start my-5 icono-wrap ">
+                <img src="img/concepto.png" alt="image4" width="180" height="160">
+            <div>
+                <h3 class="fs-5 mt-4 px-4 pb1">
+                    Branding
+                </h3>
+                <p class="px-4">
+                    Design, Conceptualization and implementation of digital products.
+                </p>
+            </div>
+        </div>
+    </section>
+    <!-- ============== END SERVICES ==================== -->
+    
+    
+    <!-- ============== START ABOUT ==================== -->
+    
+    <section class="about">
+        <div class="about__content w-50 m-auto text-center">
+            <h1 class="mb-5 fs-2">Small team
+                <span class="text-primary">with big results</span>
+            </h1>
+            <p class="fs-4">
+                We are always looking for the right people to work with us. If you feel that you are ready for this challenge, we are waiting for you to join us.
+            </p>
+        </div>
+        <div class="mt-5 text-center">
+            <img class="img-fluid" src="./img/equipo.jpg" alt="team">
+        </div>
+    </section>
+    
+<!-- ============== END ABOUT ==================== -->
+<!-- ============== START LOCATION ==================== -->
+  <section class="location container-fluid border-top border-3 border-primary pb-4">
+    <div class="location__content d-flex">
+        <div class="location__content-map">
+            <img src="./img/mapa.PNG" class="pt-2" alt="map">
+        </div>
+        <div class="location__content-text">
+            <h1 class="fs-2">
+                Located in Miami, Florida
+            </h1>
+            <h2 class="text-primary mb-4" id="typewriter">
+
+            </h2>
+            <p class="fs-5 text-body">
+                We chose Miami for our office in order to be close to our clients. We are located in Brickell, the heart and financial center of Miami, close to the best restaurants, shops and just 15 minutes from the beaches. 
+                !Visit us and you will not regret it!
+            </p>
+            <section class="d-flex last">
+                <div>
+                    <p class="text-primary fs-5">248</p>
+                    <p>Sunny days</p>
+                </div>
+                <div>
+                    <p class="text-primary fs-5">100%</p>
+                    <p>Approved</p>
+                </div>
+                <div>
+                    <p class="text-primary fs-5">24 ºC</p>
+                    <p>Temperature</p>
+                </div>
+            </section>
+        </div>
+
+    </div>
+  </section>
+
+
+
+<!-- ============== END LOCATION ==================== -->
+
+<!-- ============== START FORM ==================== -->
+
+<section class="form">
+        <div class="bg-form">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#0099ff" fill-opacity="1" d="M0,224L80,202.7C160,181,320,139,480,144C640,149,800,203,960,186.7C1120,171,1280,85,1360,42.7L1440,0L1440,320L1360,320C1280,320,1120,320,960,320C800,320,640,320,480,320C320,320,160,320,80,320L0,320Z"></path></svg>
+        </div>
+
+        <div class="container form-container">
+            <div class="title-form text-center mb-4 ">
+                <div>
+                    <img src="img/support.png" class="img-fluid" alt="support">
+                </div>    
+                    <h2 class="text-uppercase">contact us</h2>
+                    <p class="fs-5">
+                        We are here to make your projects come true, do not hesitate to contact us
+                    </p>
+            </div>
+            <form action="">
+                    <div class="mb-3">
+                      <input type="email" class="form-control" id="email" placeholder="E-Mail" required>
+                      <div id="emailHelp" class="form-text text-light">We'll never share your email with anyone else.</div>
+                    </div>
+                    
+                    <div class="mb-3">
+                      <input type="tel" class="form-control" id="tel"
+                      placeholder="Telephone Number" required>
+                    </div>
+
+                    <div class="mb-3">
+                        <input type="text" class="form-control" id="name" placeholder="Your Name">
+                      </div>
+
+                      <div class="form-floating">
+                        <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2" style="height: 100px"></textarea>
+                        <label for="floatingTextarea2">Comments</label>
+                      </div>
+                    
+                    <div class="mb-3 form-check">
+                      <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                      <div id="emailHelp" class="form-text text-dark">You agree to receive notifications by email to find out all the news of Marketing MIAMI</div>
+                    </div>
+                    
+                    <button type="button" class="btn btn-primary mb-3 w-100 fs-5">
+                        Send
+                    </button>
+            </form>
+        </div>
+
+</section>
+
+<!-- ============== END FORM ==================== -->
+
+<!-- ============== START FOOTER ==================== -->
+
+<footer class="w100 footer">
+    <p class="fs-5 px-3 pt-3"> Marketing MIAMI &copy All Rights Reserved 2021</p>
+   <div class="icons">
+       <a href="#"><i class='bi bi-facebook'></i></a>
+       <a href="#"><i class="bi bi-twitter"></i></a>
+       <a href="#"><i class="bi bi-instagram"></i></a>
+   </div> 
+</footer>
+
+
+
+
+
+<!-- ============== END FOOTER ==================== -->
+
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>

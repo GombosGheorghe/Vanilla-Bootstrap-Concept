@@ -1,0 +1,52 @@
+.bg-form{
+    position: relative;
+    top:-15rem
+}
+.form{
+    background-color: hsl(204, 100%, 50%);
+    min-height: 50rem;
+    position: relative;
+}
+@media (max-width:1080px){
+    .bg-form{
+        position: relative;
+        top:-10rem
+    }
+}
+@media (max-width:735px){
+    .bg-form{
+        position: relative;
+        top:-5rem
+    }
+}
+.form-container{
+    position: absolute;
+    top:35%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background: #fbfafa;
+    border-radius: 1rem;
+    max-width: 50rem;
+    -webkit-box-shadow: 0px -12px 15px -5px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px -12px 15px -5px rgba(0,0,0,0.75);
+    box-shadow: 0px -12px 15px -5px rgba(0,0,0,0.75); ;
+}
+
+@media (max-width:815px){
+    .form-container{
+        max-width: 38rem;
+      
+    }
+}
+@media (max-width:630px){
+    .form-container{
+        max-width: 30rem;
+      
+    }
+}
+@media (max-width:500px){
+    .form-container{
+        max-width: 25rem;
+      
+    }
+}
